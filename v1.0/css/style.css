@@ -1,0 +1,88 @@
+* {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h1, h4, th {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+p, td {
+    font-family: 'Dancing Script', cursive;
+}
+
+header img {
+    position: relative;
+    height: 400px;
+    width: 900px;
+    box-shadow: 0px 2px 1px #591902;
+}
+
+.titulo-e-background {
+    display: inline-block;
+    position: relative;
+}
+
+.titulo-e-background h1 {
+    position: absolute;
+    top: 300px;
+    font-size: 30px;
+    color: white;
+    padding: 10px 50px;
+    background-color: #BF571B99;
+}
+
+main h4 {
+    font-size: medium;
+}
+
+main img {
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+}
+
+article h4 {
+    box-shadow: 0px -2px inset #591902;
+}
+
+article .cafe-expresso {
+    display: flex;
+    justify-content: space-between;
+}
+
+article .cafe-mocha {
+    display: flex;
+    justify-content: space-between;
+}
+
+article  .info {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+table {
+    border-color: white;
+    border-style: none;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+table th {
+    color: white;
+    background-color: #591902;
+}
+
+table td {
+    padding: 10px;
+    background-color: #F29D35;
+}
+
+footer {
+    font-size: small;
+}

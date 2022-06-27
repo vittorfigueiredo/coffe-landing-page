@@ -1,0 +1,288 @@
+@media (max-width: 580px) {
+    * {
+        max-width: 580px;
+        padding: 0;
+        margin: 0 auto 0 auto;
+    }
+
+    h1, h4, th {
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+    p, td {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    header img {
+        position: relative;
+        max-width: 580px;
+        margin-bottom: 0;
+    }
+
+    .titulo-e-background {
+        display: inline-block;
+        position: relative;
+    }
+
+    .titulo-e-background h1 {
+        position: absolute;
+        top: 300px;
+        font-size: 30px;
+        color: white;
+        padding: 10px 50px;
+        background-color: #BF571B99;
+    }
+
+    ul {
+        position: absolute;
+        top: 99%;
+        width: 100%;
+        max-width: 100%;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        font-size: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        width: 21.6%;
+        background-color: #591902;
+        display: inline;
+        font-size: 16px;
+        vertical-align: middle;
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color: #BF571B99;
+        transition: .3s;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .tipos-de-cafe-text {
+        width: 140%;
+        margin-left: 15px;
+        margin-top: 60px;
+        margin-bottom: 15px;
+        font-size: x-large;
+        text-align: justify;
+    }
+
+    .escolhendo-um-cafe {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        font-size: x-large;
+    }
+
+    .tipos-de-cafe {
+        display: inline-block;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    .tipos-de-cafe img {
+        width: 35em;
+        border-radius: 6px 6px 0 0;
+        display: flex;
+    }
+
+    .tipos-de-cafe .info {
+        width: 34em;
+        display: inline-block;
+        text-align: justify;
+        color: white;
+        background-color: #591902;
+        padding: 8px;
+        border-radius: 0 0 6px 6px;
+        margin-bottom: 10px;
+    }
+
+    .tipos-de-cafe .info h4, p {
+        margin: 10px;
+    }
+
+    table {
+        border-color: white;
+        border-style: none;
+        margin-bottom: 10px;
+        width: 36em;
+    }
+
+    table th {
+        color: white;
+        background-color: #591902;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+    }
+
+    table td {
+        background-color: #F29D35;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+    }
+
+    table .td-title {
+        font-weight: bold;
+        color: white;
+    }
+
+    footer {
+        width: 41.7em;
+        font-size: small;
+        font-family: monospace;
+        font-style: italic;
+        color: white;
+        background-color: #591902;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 2000px) {
+    * {
+        max-width: 900px;
+        padding: 0;
+        margin: 0 auto 0 auto;
+    }
+
+    h1, h4, th {
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+    p, td {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    header img {
+        position: relative;
+        height: 400px;
+        width: 900px;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .titulo-e-background {
+        display: inline-block;
+        position: relative;
+    }
+
+    .titulo-e-background h1 {
+        position: absolute;
+        top: 300px;
+        font-size: 30px;
+        color: white;
+        padding: 10px 50px;
+        background-color: #BF571B99;
+    }
+
+    ul {
+        position: absolute;
+        top: 99%;
+        width: 100%;
+        max-width: 100%;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        font-size: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        width: 100%;
+        background-color: #591902;
+        display: inline;
+        font-size: 16px;
+        vertical-align: middle;
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color: #BF571B99;
+        transition: .3s;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    main h4 {
+        margin-top: 60px;
+        margin-bottom: 15px;
+        font-size: x-large;
+    }
+
+    .title-and-image hr, .escolhendo-um-cafe hr {
+        margin-left: 0;
+    }
+
+    .tipos-de-cafe {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tipos-de-cafe img {
+        width: 15em;
+        height: 140px;
+        border-radius: 6px 6px 0 0;
+        display: flex;
+    }
+
+    .tipos-de-cafe .info {
+        width: 14em;
+        display: inline-block;
+        text-align: justify;
+        color: white;
+        background-color: #591902;
+        padding: 8px;
+        border-radius: 0 0 6px 6px;
+    }
+
+    .tipos-de-cafe .info h4, p {
+        margin: 10px;
+    }
+
+    table {
+        border-color: white;
+        border-style: none;
+        margin-bottom: 50px;
+    }
+
+    table th {
+        color: white;
+        background-color: #591902;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+    }
+
+    table td {
+        background-color: #F29D35;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+    }
+
+    table .td-title {
+        font-weight: bold;
+        color: white;
+    }
+
+    footer {
+        width: 820px;
+        font-size: small;
+        font-family: monospace;
+        font-style: italic;
+        color: white;
+        background-color: #591902;
+        padding: 40px;
+    }
+}
